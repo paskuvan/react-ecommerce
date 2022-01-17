@@ -68,7 +68,7 @@ const Navbar = () => {
         <Container>
             <Wrapper>
                 <Left> 
-                    <Language>EN</Language>
+                    <Language>ES</Language>
                     <SearchContainer>
                         <Input/>
                         <Search style={{color:"gray", fontSize:16}}/>
@@ -77,8 +77,8 @@ const Navbar = () => {
                 <Center>
                     <Logo>EMPORIO.</Logo> </Center>
                 <Right>
-                    <MenuItem>REGISTER</MenuItem>    
-                    <MenuItem>SIGN IN</MenuItem>    
+                    <MenuItem>REGISTRAR</MenuItem>    
+                    <MenuItem>INICIAR</MenuItem>    
                     <MenuItem>
                     <Badge badgeContent={4} color="primary">
                         <ShoppingCartOutlined />
