@@ -20,15 +20,15 @@ const Left = styled.div`
         display:flex;
     `;
     const SocialIcon = styled.h1`
-    width:40px;
-    height:40px;
-    border-radius:50%;
-    color:white;
-    background-color: #${props => props.color};
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin-right:20px;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        color:white;
+        background-color: #${props => props.color};
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-right:20px;
     `;
 
 
@@ -56,6 +56,7 @@ const ListItem =styled.li`
 
 const Right = styled.div`
     flex:1;
+    padding: 20px;
 `;
 
 const ContactItem = styled.div`
