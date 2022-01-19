@@ -25,8 +25,7 @@ const TopButton = styled.button`
     font-weight: 600;
     cursor: pointer;
     border: ${(props) => props.type === "filled" && "none"};
-    background-color: ${(props) =>
-    props.type === "filled" ? "black" : "transparent"};
+    background-color: ${(props) => (props.type === "filled" ? "black" : "transparent")};
     color: ${(props) => props.type === "filled" && "white"};
 `;
 
@@ -53,7 +52,7 @@ const Product = styled.div`
 `;
 const ProductDetail = styled.div`
     flex: 2;
-    display:flex;
+    display: flex;
 `;
 const Image = styled.img`
     width: 200px;
@@ -64,49 +63,43 @@ const Details = styled.div`
     flex-direction: column;
     justify-content: space-around;
 `;
-const ProductName = styled.span`
-
-`;
-const ProductId = styled.span`
-
-`;
+const ProductName = styled.span``;
+const ProductId = styled.span``;
 const ProductColor = styled.div`
-    width:20px;
-    height:20px;
-    border-radius:50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
     background-color: ${(props) => props.color};
 `;
-const ProductSize = styled.span`
-
-`;
+const ProductSize = styled.span``;
 const PriceDetail = styled.div`
     flex: 1;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 `;
 
 const ProductAmountContainer = styled.div`
-        display:flex;
-        align-items:center;
-        margin-bottom:20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 `;
 
 const ProductAmount = styled.div`
-        font-size:24px;
-        margin:5px;
+    font-size: 24px;
+    margin: 5px;
 `;
 
 const ProductPrice = styled.div`
-         font-size:30px;
-         font-weight:200;   
+    font-size: 30px;
+    font-weight: 200;
 `;
 
 const Hr = styled.hr`
-        background-color: #eee;
-        border: none;
-        height: 1px;
+    background-color: #eee;
+    border: none;
+    height: 1px;
 `;
 
 const Summary = styled.div`
@@ -114,11 +107,11 @@ const Summary = styled.div`
     border: 0px solid lightgray;
     border-radius: 10px;
     padding: 20px;
-    height:50vh;
+    height: 50vh;
 `;
 
 const SummaryTitle = styled.h1`
-        font-weight:200;
+    font-weight: 200;
 `;
 const SummaryItem = styled.div`
         margin: 30px 0px;
@@ -130,12 +123,12 @@ const SummaryItem = styled.div`
 const SummaryItemText = styled.span``;
 const SummaryItemPrice = styled.span``;
 const Button = styled.button`
-        width:100%;
-        padding:10px;
-        background-color: black;
-        color: white;
-        font-weight: 600;
-        cursor:pointer;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
 `;
 
 export const Cart = () => {
@@ -156,54 +149,54 @@ export const Cart = () => {
                 <Bottom>
                     <Info>
                         <Product>
-                        <ProductDetail>
-                <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A" />
-                <Details>
-                  <ProductName>
-                    <b>Product:</b> JESSIE THUNDER SHOES
-                  </ProductName>
-                  <ProductId>
-                    <b>ID:</b> 93813718293
-                  </ProductId>
-                  <ProductColor color="black" />
-                  <ProductSize>
-                    <b>Size:</b> 37.5
-                  </ProductSize>
-                </Details>
-              </ProductDetail>
+                            <ProductDetail>
+                                <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A" />
+                                <Details>
+                                    <ProductName>
+                                        <b>Product:</b> JESSIE THUNDER SHOES
+                                    </ProductName>
+                                    <ProductId>
+                                        <b>ID:</b> 93813718293
+                                    </ProductId>
+                                    <ProductColor color="black" />
+                                    <ProductSize>
+                                        <b>Size:</b> 37.5
+                                    </ProductSize>
+                                </Details>
+                            </ProductDetail>
                             <PriceDetail>
-                            <ProductAmountContainer>
-                                <Add/>
-                                <ProductAmount>2</ProductAmount>
-                                <Remove/>
-                            </ProductAmountContainer>    
-                            <ProductPrice>$12.000</ProductPrice>
+                                <ProductAmountContainer>
+                                    <Add />
+                                    <ProductAmount>2</ProductAmount>
+                                    <Remove />
+                                </ProductAmountContainer>
+                                <ProductPrice>$12.000</ProductPrice>
                             </PriceDetail>
                         </Product>
-                        <Hr/>
+                        <Hr />
                         <Product>
-                        <ProductDetail>
-                        <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" />
-                <Details>
-                  <ProductName>
-                    <b>Product:</b> HAKURA T SHIRT
-                  </ProductName>
-                  <ProductId>
-                    <b>ID:</b> 93813717823
-                  </ProductId>
-                  <ProductColor color="gray" />
-                  <ProductSize>
-                    <b>Size:</b> 32
-                  </ProductSize>
-                </Details>
-              </ProductDetail>
+                            <ProductDetail>
+                                <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" />
+                                <Details>
+                                    <ProductName>
+                                        <b>Product:</b> HAKURA T SHIRT
+                                    </ProductName>
+                                    <ProductId>
+                                        <b>ID:</b> 93813717823
+                                    </ProductId>
+                                    <ProductColor color="gray" />
+                                    <ProductSize>
+                                        <b>Size:</b> 32
+                                    </ProductSize>
+                                </Details>
+                            </ProductDetail>
                             <PriceDetail>
-                            <ProductAmountContainer>
-                                <Add/>
-                                <ProductAmount>2</ProductAmount>
-                                <Remove/>
-                            </ProductAmountContainer>    
-                            <ProductPrice>$7.000</ProductPrice>
+                                <ProductAmountContainer>
+                                    <Add />
+                                    <ProductAmount>2</ProductAmount>
+                                    <Remove />
+                                </ProductAmountContainer>
+                                <ProductPrice>$7.000</ProductPrice>
                             </PriceDetail>
                         </Product>
                     </Info>
@@ -222,7 +215,7 @@ export const Cart = () => {
                             <SummaryItemText>$-4.000</SummaryItemText>
                         </SummaryItem>
                         <SummaryItem type="total">
-                            <SummaryItemText >Total</SummaryItemText>
+                            <SummaryItemText>Total</SummaryItemText>
                             <SummaryItemPrice>$17.400</SummaryItemPrice>
                         </SummaryItem>
                         <Button>PAGAR AHORA</Button>
