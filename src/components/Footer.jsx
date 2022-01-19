@@ -92,22 +92,20 @@ const Footer = () => {
                 </SocialContainer>
             </Left>
             <Center>
-                <Title>Useful Links</Title>
+                <Title>Categorías</Title>
                 <List>
-                    <ListItem>Home</ListItem>
-                    <ListItem>Cart</ListItem>
-                    <ListItem>Man Fashion</ListItem>
-                    <ListItem>Woman Fashion</ListItem>
-                    <ListItem>Accesories</ListItem>
-                    <ListItem>My Account</ListItem>
-                    <ListItem>Order Tracking</ListItem>
-                    <ListItem>Wishlist</ListItem>
-                    <ListItem>About Us</ListItem>
-                    <ListItem>Terms</ListItem>
+                    <ListItem>Packs</ListItem>
+                    <ListItem>Ofertas</ListItem>
+                    <ListItem>Vegano</ListItem>
+                    <ListItem>Libre de Azúcar</ListItem>
+                    <ListItem>Libre de Gluten</ListItem>
+                    <ListItem>Orgánicos</ListItem>
+                    <ListItem>Keto</ListItem>
+                    <ListItem>Infusiones</ListItem>
                 </List>
             </Center>
             <Right>
-                    <Title>Contact Us</Title>
+                    <Title>Contacto</Title>
                     <ContactItem><Room style={{marginRight:"10px"}}/>
                         Alameda 1665, Santiago 8340531
                     </ContactItem>
