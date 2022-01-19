@@ -77,7 +77,7 @@ const Footer = () => {
     return (
         <Container>
             <Left>
-                <Logo>EMPORIO.</Logo>
+                <Logo>FARMACIAS KNOP.</Logo>
                 <Desc>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, quasi! Eligendi velit debitis obcaecati error itaque, tempora repudiandae voluptate, quisquam.
                 </Desc>
                 <SocialContainer>
