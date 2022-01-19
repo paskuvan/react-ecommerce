@@ -58,13 +58,13 @@ const Login = () => {
     return (
         <Container>
             <Wrapper>
-                <Title>SIGN IN</Title>
+                <Title>ACCEDER</Title>
                 <Form>
                     <Input type="text" placeholder="username" />
                     <Input type="text" placeholder="password" />
-                    <Button>LOGIN</Button>
-                    <Link>DO NOT REMEMBER YOUR PASSWORD?</Link>
-                    <Link>CREATE A NEW ACCOUNT</Link>
+                    <Button>INICIAR</Button>
+                    <Link>¿TE OLVIDASTE LA CONTRASEÑA?</Link>
+                    <Link>CREA UNA CUENTA NUEVA</Link>
                 </Form>
             </Wrapper>
         </Container>

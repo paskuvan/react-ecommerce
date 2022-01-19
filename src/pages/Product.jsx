@@ -111,9 +111,9 @@ export const Product = () => {
                     <Image src="https://i.ibb.co/S6qMxwr/jean.jpg"/>
                 </ImgContainer>
                 <InfoContainer>
-                    <Title>Denim Jumpsuit</Title>
-                    <Desc>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi animi vero, repudiandae modi fugit impedit accusantium eius beatae quae, sint atque voluptatum deleniti accusamus. Rem delectus perspiciatis quasi vero incidunt.</Desc>
-                    <Price>$20</Price>
+                    <Title>Denim jeans</Title>
+                    <Desc>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, esse unde. Hic ipsam sequi fugiat ea expedita nemo assumenda illum! Dolores optio doloremque facere officia itaque sed beatae id error!</Desc>
+                    <Price>$10.190</Price>
                     <FilterContainer>
                         <Filter>
                             <FilterTitle>Color</FilterTitle>
