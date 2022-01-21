@@ -8,17 +8,17 @@ export const sliderItems = [
   },
   {
     id: 2,
-    img: "https://i.ibb.co/DG69bQ4/2.png",
+    img: "https://i.ibb.co/4Z65cZw/Untitled-4.png",
     title: "VITAMINAS Y SUPLEMENTOS",
     desc: "Hasta 60% descuento, válido solo el fin de semana.",
-    bg: "fcf1ed",
+    bg: "fce5dc",
   },
   {
     id: 3,
-    img: "https://i.ibb.co/cXFnLLV/3.png",
+    img: "https://i.ibb.co/545x9YJ/Untitled-5.png",
     title: "EMPEZÓ EL VERANO",
     desc: "Alégrarte para disfrutarlo, hasta 40% de descuento",
-    bg: "fbf0f4",
+    bg: "dcf5fc",
   },
 ];
 
