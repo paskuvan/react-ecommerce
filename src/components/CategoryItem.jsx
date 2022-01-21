@@ -31,10 +31,14 @@ const Title = styled.h1`
 const Button = styled.button`
     border:none;
     padding:10px;
-    background-color:white;
-    color:gray;
+    background-color:#83b735;
+    color:white;
     cursor:pointer;
     font-weight:600;
+
+    &:hover{
+        background-color: #1c5630;
+    }
 `;
 
 const CategoryItem = ({item}) => {
@@ -43,7 +47,7 @@ const CategoryItem = ({item}) => {
             <Image src={item.img}/>
             <Info>
                 <Title>{item.title}</Title>
-                <Button>COMPRAR AHORA</Button>
+                <Button>Ver productos</Button>
             </Info>
         </Container>
     )
