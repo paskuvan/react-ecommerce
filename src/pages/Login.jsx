@@ -8,7 +8,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    url("https://i.ibb.co/DWKcSSR/Untitled-1.png")
       center;
     background-size: cover;
     display: flex;
@@ -24,7 +24,8 @@ const Wrapper = styled.div`
 `;
 const Title = styled.h1`
         font-size:24px;
-        font-weight:300;
+        font-weight:700;
+        color: #1c5630;
 `;
 const Form = styled.form`
         display:flex;
@@ -41,30 +42,36 @@ const Button = styled.button`
         width:40%;
         border:none;
         padding:15px 20px;
-        background-color:teal;
+        background-color:#1c5630;
         color:white;
         cursor:pointer;
         margin-bottom:10px;
+        font-weight:600;
+
+        &:hover{
+            background-color: #83b735;
+        }
 `;
 
 const Link = styled.a`
         margin:5px 0;
-        font-size:12px;
+        font-size:14px;
         text-decoration:underline;
         cursor:pointer;
+        color: #343230;
 `;
 
 const Login = () => {
     return (
         <Container>
             <Wrapper>
-                <Title>ACCEDER</Title>
+                <Title>Ingresa a tu cuenta</Title>
                 <Form>
-                    <Input type="text" placeholder="username" />
-                    <Input type="text" placeholder="password" />
-                    <Button>INICIAR</Button>
-                    <Link>¿TE OLVIDASTE LA CONTRASEÑA?</Link>
-                    <Link>CREA UNA CUENTA NUEVA</Link>
+                    <Input type="text" placeholder="Usuario" />
+                    <Input type="text" placeholder="Contraseña" />
+                    <Button>Ingresar</Button>
+                    <Link>¿Aún no tienes cuenta?</Link>
+                    <Link>Regístrate aquí</Link>
                 </Form>
             </Wrapper>
         </Container>
