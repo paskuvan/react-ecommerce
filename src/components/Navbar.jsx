@@ -74,14 +74,14 @@ const Navbar = () => {
                     <Language>ES</Language>
                     <SearchContainer>
                         <Input placeholder="Buscar"/>
-                        <Search style={{color:"gray", fontSize:16}}/>
+                        <Search style={{color:"#83b735", fontSize:17}}/>
                     </SearchContainer>
                     </Left>
                 <Center>
                     <Logo>FARMACIAS KNOP</Logo> </Center>
                 <Right>
-                    <MenuItem>REGISTRAR</MenuItem>    
-                    <MenuItem>INICIAR</MenuItem>    
+                    <MenuItem>Regístrate</MenuItem>    
+                    <MenuItem>Ingresar</MenuItem>    
                     <MenuItem>
                     <Badge badgeContent={4} color="primary">
                         <ShoppingCartOutlined />
