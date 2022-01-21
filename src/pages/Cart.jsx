@@ -27,8 +27,10 @@ const TopButton = styled.button`
     font-weight: 600;
     cursor: pointer;
     border: ${(props) => props.type === "filled" && "none"};
-    background-color: ${(props) => (props.type === "filled" ? "black" : "transparent")};
+    background-color: ${(props) => (props.type === "filled" ? "#83b735" : "white")};
     color: ${(props) => props.type === "filled" && "white"};
+
+    
 `;
 
 const TopTexts = styled.div`
@@ -69,14 +71,10 @@ const Details = styled.div`
     flex-direction: column;
     justify-content: space-around;
 `;
-const ProductName = styled.span``;
-const ProductId = styled.span``;
-const ProductColor = styled.div`
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: ${(props) => props.color};
+const ProductName = styled.span`
+color:1c5630;
 `;
+const ProductId = styled.span``;
 const ProductSize = styled.span``;
 const PriceDetail = styled.div`
     flex: 1;
@@ -119,7 +117,8 @@ const Summary = styled.div`
 `;
 
 const SummaryTitle = styled.h1`
-    font-weight: 200;
+    font-weight: 600;
+    color: #1c5630;
 `;
 const SummaryItem = styled.div`
         margin: 30px 0px;
@@ -133,10 +132,15 @@ const SummaryItemPrice = styled.span``;
 const Button = styled.button`
     width: 100%;
     padding: 10px;
-    background-color: black;
+    background-color: #1c5630;
+    border:none;
     color: white;
     font-weight: 600;
     cursor: pointer;
+
+    &:hover{
+        background-color: #83b735;
+    }
 `;
 
 export const Cart = () => {
@@ -150,7 +154,7 @@ export const Cart = () => {
                     <TopButton>CONTINUA COMPRA</TopButton>
                     <TopTexts>
                         <TopText>CARRO DE COMPRAS (2)</TopText>
-                        <TopText>TU LISTA (0)</TopText>
+                        <TopText>TU LISTA (1)</TopText>
                     </TopTexts>
                     <TopButton type="filled">PAGAR</TopButton>
                 </Top>
@@ -158,17 +162,16 @@ export const Cart = () => {
                     <Info>
                         <Product>
                             <ProductDetail>
-                                <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A" />
+                                <Image src="https://i.ibb.co/4KLm9Xs/product01.png" />
                                 <Details>
                                     <ProductName>
-                                        <b>Product:</b> JESSIE THUNDER SHOES
+                                        <b>Producto:</b> Cobertura chocolate org. 70% cacao 400 g, manare
                                     </ProductName>
                                     <ProductId>
-                                        <b>ID:</b> 93813718293
+                                        <b>SKU:</b> 93813718293
                                     </ProductId>
-                                    <ProductColor color="black" />
                                     <ProductSize>
-                                        <b>Size:</b> 37.5
+                                        <b>Categoría:</b> Vegano
                                     </ProductSize>
                                 </Details>
                             </ProductDetail>
@@ -178,33 +181,32 @@ export const Cart = () => {
                                     <ProductAmount>2</ProductAmount>
                                     <Remove />
                                 </ProductAmountContainer>
-                                <ProductPrice>$12.000</ProductPrice>
+                                <ProductPrice>$11.990</ProductPrice>
                             </PriceDetail>
                         </Product>
                         <Hr />
                         <Product>
                             <ProductDetail>
-                                <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" />
+                                <Image src="https://i.ibb.co/L5jWJqx/product02.png" />
                                 <Details>
                                     <ProductName>
-                                        <b>Product:</b> HAKURA T SHIRT
+                                        <b>Producto:</b> Clorofila Líquida 450 mL – Knop Laboratorios®
                                     </ProductName>
                                     <ProductId>
-                                        <b>ID:</b> 93813717823
+                                        <b>SKU:</b> 93813717823
                                     </ProductId>
-                                    <ProductColor color="gray" />
                                     <ProductSize>
-                                        <b>Size:</b> 32
+                                        <b>Categoría:</b> Alimentación saludable
                                     </ProductSize>
                                 </Details>
                             </ProductDetail>
                             <PriceDetail>
                                 <ProductAmountContainer>
                                     <Add />
-                                    <ProductAmount>2</ProductAmount>
+                                    <ProductAmount>1</ProductAmount>
                                     <Remove />
                                 </ProductAmountContainer>
-                                <ProductPrice>$7.000</ProductPrice>
+                                <ProductPrice>$11.290</ProductPrice>
                             </PriceDetail>
                         </Product>
                     </Info>
@@ -212,21 +214,21 @@ export const Cart = () => {
                         <SummaryTitle>RESUMEN</SummaryTitle>
                         <SummaryItem>
                             <SummaryItemText>Subtotal</SummaryItemText>
-                            <SummaryItemText>$19.000</SummaryItemText>
+                            <SummaryItemText>$23.280</SummaryItemText>
                         </SummaryItem>
                         <SummaryItem>
                             <SummaryItemText>Envío</SummaryItemText>
-                            <SummaryItemText>$2.400</SummaryItemText>
+                            <SummaryItemText>$1.400</SummaryItemText>
                         </SummaryItem>
                         <SummaryItem>
                             <SummaryItemText>Descuento</SummaryItemText>
-                            <SummaryItemText>$-4.000</SummaryItemText>
+                            <SummaryItemText>$-3.000</SummaryItemText>
                         </SummaryItem>
                         <SummaryItem type="total">
                             <SummaryItemText>Total</SummaryItemText>
-                            <SummaryItemPrice>$17.400</SummaryItemPrice>
+                            <SummaryItemPrice>$21.680</SummaryItemPrice>
                         </SummaryItem>
-                        <Button>PAGAR AHORA</Button>
+                        <Button>Pagar ahora</Button>
                     </Summary>
                 </Bottom>
             </Wrapper>

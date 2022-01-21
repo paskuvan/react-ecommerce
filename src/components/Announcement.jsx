@@ -14,7 +14,7 @@ const Container = styled.div`
 const Announcement = () => {
     return (
         <Container>
-            Envío gratis en pedidos superiores a $ 15.000 en todo Chile.
+            Envío gratis en pedidos superiores a $ 15.000.
         </Container>
     )
 }

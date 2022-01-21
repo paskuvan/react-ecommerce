@@ -14,7 +14,7 @@ const Container = styled.div`
 const Title = styled.h1`
     font-size:24px;
     margin-bottom:20px;
-    
+    ${mobile({ textAlign: "center" })}
 `;
 const Desc = styled.div`
     font-size:16px;
