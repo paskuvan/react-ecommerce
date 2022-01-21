@@ -119,7 +119,7 @@ const Footer = () => {
                     <ContactItem><Email style={{marginRight:"10px"}}/>
                         contacto@farmaciasknop.com
                     </ContactItem>
-                    <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+                    <Payment src="https://i.ibb.co/v1JGTK3/payment.png" />
             </Right>
         </Container>
     )
