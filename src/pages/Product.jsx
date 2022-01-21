@@ -91,13 +91,15 @@ const Amount = styled.span`
 `;
 const Button = styled.button`
     padding:15px;
-    border:2px solid teal;
+    border:2px solid #1c5630;
     background-color:white;
     cursor:pointer;
     font-weight:500;
 
     &:hover{
-        background-color: #f8f4f4;
+        background-color: #83b735;
+        border:none;
+        color: white;
     }
 `;
 
@@ -108,37 +110,20 @@ export const Product = () => {
             <Announcement/>
             <Wrapper>
                 <ImgContainer>
-                    <Image src="https://i.ibb.co/S6qMxwr/jean.jpg"/>
+                    <Image src="https://i.ibb.co/NFGT8CP/naturaloe.png"/>
                 </ImgContainer>
                 <InfoContainer>
-                    <Title>Denim jeans</Title>
-                    <Desc>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, esse unde. Hic ipsam sequi fugiat ea expedita nemo assumenda illum! Dolores optio doloremque facere officia itaque sed beatae id error!</Desc>
-                    <Price>$10.190</Price>
-                    <FilterContainer>
-                        <Filter>
-                            <FilterTitle>Color</FilterTitle>
-                            <FilterColor color="black"/>
-                            <FilterColor color="darkblue"/>
-                            <FilterColor color="gray"/>
-                        </Filter>
-                        <Filter>
-                            <FilterTitle>Size</FilterTitle>
-                            <FilterSize>
-                                <FilterSizeOption>XS</FilterSizeOption>
-                                <FilterSizeOption>S</FilterSizeOption>
-                                <FilterSizeOption>M</FilterSizeOption>
-                                <FilterSizeOption>L</FilterSizeOption>
-                                <FilterSizeOption>XL</FilterSizeOption>
-                            </FilterSize>
-                        </Filter>
-                    </FilterContainer>
+                    <Title>Crema facial antiedad noche 50 ml, Naturaloe</Title>
+                    <Desc>Elaborado con un 40% de Aloe Vera Orgánico que humecta, protege e hidrata tu piel. Jengibre y Maca revitaliza las pieles de aspecto cansado, envejecido y fatigado. Aquaxyl aumenta las reservas de agua de la piel manteniéndola suave y luminosa. Ácido Hialurónico captura y retiene la humedad de la piel ayudando a preservar su equilibrio natural, aumenta la hidratación, de efecto inmediato y de larga duración. Chronociclyn reparador nocturno, que se adecua al ritmo circadiano, trabajando en la piel durante la noche cuando comienza la renovación celular. Ayuda a reparar daños cutáneos temporales o de largo plazo, induce una renovación periódica de queratinocitos. Despierta la piel estimulando sus defensas naturales. Actúa en pieles cansadas y con falta de exposición al sol activando la biotransformación de la vitamina D mientras duermes.</Desc>
+                    <Price>$8.790</Price>
+                    
                     <AddContainer>
                         <AmountContainer>
                             <Remove/>
                             <Amount>1</Amount>
                             <Add/>
                         </AmountContainer>
-                        <Button>ADD TO CART</Button>
+                        <Button>Añadir al carro</Button>
                     </AddContainer>
                 </InfoContainer>
             </Wrapper>
