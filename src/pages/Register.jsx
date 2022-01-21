@@ -8,7 +8,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    url("https://i.ibb.co/qFh8328/Untitled-2.png")
       center;
   background-size: cover;
   display: flex;
@@ -24,7 +24,8 @@ ${mobile({ width: "75%" })}
 `;
 const Title = styled.h1`
         font-size:24px;
-        font-weight:300;
+        font-weight:700;
+        color: #1c5630;
 `;
 const Form = styled.form`
         display:flex;
@@ -39,32 +40,38 @@ const Input = styled.input`
 const Agreement = styled.span`
         font-size:12px;
         margin:20px 0px;
+        color: #343230;
 `;
 const Button = styled.button`
         width:40%;
         border:none;
         padding:15px 20px;
-        background-color:teal;
+        background-color:#1c5630;
         color:white;
         cursor:pointer;
+        font-weight:600;
+
+        &:hover{
+            background-color: #83b735;
+        }
 `;
 
 const Register = () => {
     return (
         <Container>
             <Wrapper>
-                <Title>CREATE AN ACCOUNT</Title>
+                <Title>Regístrate</Title>
                 <Form>
-                    <Input type="text" placeholder="First Name" />
-                    <Input type="text" placeholder="Last Name" />
+                    <Input type="text" placeholder="Nombre" />
+                    <Input type="text" placeholder="Apellidos" />
+                    <Input type="text" placeholder="Rut" required />
                     <Input type="text" placeholder="Email" />
-                    <Input type="text" placeholder="Password" />
-                    <Input type="text" placeholder="Confirm Password" />
+                    <Input type="text" placeholder="Contraseña" />
+                    <Input type="text" placeholder="Confirmar contraseña" />
                     <Agreement>
-                    By creating an account, I consent to the processing of my personal
-                    data in accordance with the <b>PRIVACY POLICY</b>
+                    Declaro haber leído, y acepto expresamente los <b>Términos y Condiciones</b> del sitio y su <b>Política de Privacidad</b> y <b>Protección de Datos</b>.
                     </Agreement>
-                    <Button>CREATE</Button>
+                    <Button>Regístrate</Button>
                 </Form>
             </Wrapper>
         </Container>
