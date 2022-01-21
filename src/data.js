@@ -1,23 +1,23 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "https://i.ibb.co/XsdmR2c/1.png",
-    title: "SUMMER SALE",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    img: "https://i.ibb.co/QfJqHNj/Untitled-3.png",
+    title: "ALIMENTACIÓN SALUDABLE",
+    desc: "Hasta 50% descuento, válido hasta el 25 de Enero.",
     bg: "f5fafd",
   },
   {
     id: 2,
     img: "https://i.ibb.co/DG69bQ4/2.png",
-    title: "AUTUMN COLLECTION",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    title: "VITAMINAS Y SUPLEMENTOS",
+    desc: "Hasta 60% descuento, válido solo el fin de semana.",
     bg: "fcf1ed",
   },
   {
     id: 3,
     img: "https://i.ibb.co/cXFnLLV/3.png",
-    title: "LOUNGEWEAR LOVE",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    title: "EMPEZÓ EL VERANO",
+    desc: "Alégrarte para disfrutarlo, hasta 40% de descuento",
     bg: "fbf0f4",
   },
 ];

@@ -63,19 +63,27 @@ const InfoContainer = styled.div`
 
 const Title = styled.h1`
     font-size:70px;
+    color: #1c5630;
 
 `;
 const Desc = styled.p`
     margin:50px 0px;
     font-size:20px;
     font-weight:500;
-    letter-spacing: 3px;
+    color: #343230;
 `;
 const Button = styled.button`
     padding: 10px;
     font-size: 20px;
-    background-color: transparent;
+    background-color:#1c5630;
+    color:white;
     cursor: pointer;
+    font-weight: 500;
+    border:none;
+
+    &:hover{
+        background-color: #83b735;
+    }
 `;
 
 const Slider = () => {
@@ -102,7 +110,7 @@ const Slider = () => {
                 <InfoContainer>
                     <Title>{item.title}</Title>
                     <Desc>{item.desc}</Desc>
-                    <Button>COMPRAR AHORA</Button>
+                    <Button>Comprar ahora</Button>
                 </InfoContainer>
                 </Slide>
                 ))}
