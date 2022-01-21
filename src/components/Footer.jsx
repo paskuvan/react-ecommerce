@@ -31,6 +31,7 @@ const Left = styled.div`
         align-items:center;
         justify-content:center;
         margin-right:20px;
+        cursor:pointer;
     `;
 
 
@@ -69,7 +70,7 @@ const ContactItem = styled.div`
     align-items:center;
 `;
 const Payment = styled.img`
-    width:50%;
+    width:80%;
 `;
 
 
@@ -119,7 +120,7 @@ const Footer = () => {
                     <ContactItem><Email style={{marginRight:"10px"}}/>
                         contacto@farmaciasknop.com
                     </ContactItem>
-                    <Payment src="https://i.ibb.co/v1JGTK3/payment.png" />
+                    <Payment src="https://i.ibb.co/k0PVhbf/payment.png" />
             </Right>
         </Container>
     )

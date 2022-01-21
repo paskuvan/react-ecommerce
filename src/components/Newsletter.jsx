@@ -12,12 +12,12 @@ const Container = styled.div`
     flex-direction: column;
 `;
 const Title = styled.h1`
-    font-size:70px;
+    font-size:24px;
     margin-bottom:20px;
     
 `;
 const Desc = styled.div`
-    font-size:24px;
+    font-size:16px;
     font-weight:300;
     margin-bottom:20px;
     ${mobile({ textAlign: "center" })}
@@ -39,17 +39,21 @@ const Input = styled.input`
 const Button = styled.button`
     flex:1;
     border:none;
-    background-color:teal;
+    background-color:#1c5630;
     color:white;
+
+    &:hover{
+        background-color: #83b735;
+    }
 `;
 
 const Newsletter = () => {
     return (
         <Container>
-            <Title>Newsletter</Title>
-            <Desc>Suscríbete para recibir las ofertas de tus productos favoritos.</Desc>
+            <Title>Recibe Ofertas y Contenido Natural</Title>
+            <Desc>Descubra las novedades de productos, promociones, descuentos y ofertas.</Desc>
             <InputContainer>
-                <Input placeholder="Your email" />
+                <Input placeholder="Pone tu correo electrónico" />
                 <Button>
                     <Send/>
                 </Button>

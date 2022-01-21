@@ -27,46 +27,30 @@ const InfoContainer = styled.div`
     ${mobile({ padding: "10px"})}
 `;
 const Title = styled.h1`
-    font-weight:200;
+    font-weight:600;
+    color:#1c5630;
 `;
 const Desc = styled.p`
     margin:20px 0px;
 `;
-const Price = styled.span`
+
+const RefPrice = styled.span`
     font-weight:100;
+    color:gray;
+    display:flex;
+    text-decoration: line-through;
+    
+`;
+
+const Price = styled.span`
+    font-weight:800;
     font-size:40px;
+    color: #1c5630;
 `;
 
-const FilterContainer = styled.div`
-    width:50%;
-    display:flex;
-    justify-content:space-between;
-    margin:30px 0px;
-    ${mobile({ width: "100%"})}
-`;
-const Filter = styled.div`
-    display:flex;
-    align-items:center;
-`;
-const FilterTitle = styled.span`
-    font-size:20px;
-    font-weight:200;
-`;
-const FilterColor = styled.div`
-    width:20px;
-    height:20px;
-    border-radius:50%;
-    background-color:${props => props.color};
-    margin:0px 5px;
-    cursor:pointer;
-`;
-const FilterSize = styled.select`
-    margin-left:10px;
-    padding:5px;
-`;
-const FilterSizeOption = styled.option`
 
-`;
+
+
 const AddContainer = styled.div`
     display:flex;
     align-items:center;
@@ -83,7 +67,7 @@ const Amount = styled.span`
     width:30px;
     height:30px;
     border-radius:10px;
-    border:1px solid teal;
+    border:1px solid #1c5630;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -114,7 +98,9 @@ export const Product = () => {
                 </ImgContainer>
                 <InfoContainer>
                     <Title>Crema facial antiedad noche 50 ml, Naturaloe</Title>
-                    <Desc>Elaborado con un 40% de Aloe Vera Orgánico que humecta, protege e hidrata tu piel. Jengibre y Maca revitaliza las pieles de aspecto cansado, envejecido y fatigado. Aquaxyl aumenta las reservas de agua de la piel manteniéndola suave y luminosa. Ácido Hialurónico captura y retiene la humedad de la piel ayudando a preservar su equilibrio natural, aumenta la hidratación, de efecto inmediato y de larga duración. Chronociclyn reparador nocturno, que se adecua al ritmo circadiano, trabajando en la piel durante la noche cuando comienza la renovación celular. Ayuda a reparar daños cutáneos temporales o de largo plazo, induce una renovación periódica de queratinocitos. Despierta la piel estimulando sus defensas naturales. Actúa en pieles cansadas y con falta de exposición al sol activando la biotransformación de la vitamina D mientras duermes.</Desc>
+                    <Desc>
+                    Elaborado con un 40% de Aloe Vera Orgánico que humecta, protege e hidrata tu piel. Jengibre y Maca revitaliza las pieles de aspecto cansado, envejecido y fatigado. Aquaxyl aumenta las reservas de agua de la piel manteniéndola suave y luminosa. Ácido Hialurónico captura y retiene la humedad de la piel ayudando a preservar su equilibrio natural, aumenta la hidratación, de efecto inmediato y de larga duración. Chronociclyn reparador nocturno, que se adecua al ritmo circadiano, trabajando en la piel durante la noche cuando comienza la renovación celular. Ayuda a reparar daños cutáneos temporales o de largo plazo, induce una renovación periódica de queratinocitos. Despierta la piel estimulando sus defensas naturales. Actúa en pieles cansadas y con falta de exposición al sol activando la biotransformación de la vitamina D mientras duermes.</Desc>
+                    <RefPrice>$10.990</RefPrice>
                     <Price>$8.790</Price>
                     
                     <AddContainer>

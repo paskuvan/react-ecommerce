@@ -78,7 +78,7 @@ const Navbar = () => {
                     </SearchContainer>
                     </Left>
                 <Center>
-                    <Logo>FARMACIAS KNOP</Logo> </Center>
+                    <Logo>FK</Logo> </Center>
                 <Right>
                     <MenuItem>Regístrate</MenuItem>    
                     <MenuItem>Ingresar</MenuItem>    
