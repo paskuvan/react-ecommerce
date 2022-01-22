@@ -40,37 +40,36 @@ const ProductList = () => {
         <Container>
             <Navbar/>
             <Announcement/>
-            <Title>Dresses</Title>
+            <Title>Alimentos Saludables</Title>
             <FilterContainer>
-                <Filter><FilterText>Filter Products:</FilterText>
+                <Filter><FilterText>Filtrar por:</FilterText>
                     <Select>
                         <Option disabled selected>
-                            Color
+                            Marca
                         </Option>
-                        <Option>White</Option>
-                        <Option>Black</Option>
-                        <Option>Red</Option>
-                        <Option>Blue</Option>
-                        <Option>Yellow</Option>
-                        <Option>Green</Option>
+                        <Option>Knop Labs</Option>
+                        <Option>Naturals Pharma Knop</Option>
+                        <Option>Manare</Option>
+                        <Option>Naturaloe</Option>
+                        <Option>Garden House</Option>
+                        <Option>Ipak</Option>
                     </Select>
                     <Select>
                         <Option disabled selected>
-                            Size
+                            Categoría
                         </Option>
-                        <Option>XS</Option>
-                        <Option>S</Option>
-                        <Option>M</Option>
-                        <Option>L</Option>
-                        <Option>XL</Option>
+                        <Option>Emporio</Option>
+                        <Option>Alimentos</Option>
+                        <Option>Medicamentos</Option>
+                        <Option>Cosméticos</Option>
                     </Select>
                 </Filter>
                 
-                <Filter><FilterText>Sort Products:</FilterText>
+                <Filter><FilterText>Ordenar por:</FilterText>
                 <Select>
-                    <Option selected>Newest</Option>
-                    <Option>Price (asc)</Option>
-                    <Option>Price (desc)</Option>
+                    <Option selected>Novedades</Option>
+                    <Option>Precio mayor a menor </Option>
+                    <Option>Precio menor a mayor</Option>
                 </Select>
                 </Filter>
             </FilterContainer>

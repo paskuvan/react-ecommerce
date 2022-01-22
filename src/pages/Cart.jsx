@@ -12,8 +12,9 @@ const Wrapper = styled.div`
     ${mobile({ padding:"10px" })}
 `;
 const Title = styled.h1`
-    font-weight: 300;
+    font-weight: 700;
     text-align: center;
+    color: #1c5630;
 `;
 const Top = styled.div`
     display: flex;
@@ -91,14 +92,15 @@ const ProductAmountContainer = styled.div`
 `;
 
 const ProductAmount = styled.div`
-    font-size: 24px;
+    font-size: 16px;
     margin: 5px;
     ${mobile({ margin: "5px" })}
 `;
 
 const ProductPrice = styled.div`
     font-size: 30px;
-    font-weight: 200;
+    font-weight:500;
+    color: #1c5630;
     ${mobile({ marginBottom: "20px" })}
 `;
 
@@ -150,14 +152,14 @@ export const Cart = () => {
             <Announcement />
             <Wrapper>
                 <Title>TU CARRO</Title>
-                <Top>
+                {/* <Top>
                     <TopButton>CONTINUA COMPRA</TopButton>
                     <TopTexts>
                         <TopText>CARRO DE COMPRAS (2)</TopText>
                         <TopText>TU LISTA (1)</TopText>
                     </TopTexts>
                     <TopButton type="filled">PAGAR</TopButton>
-                </Top>
+                </Top> */}
                 <Bottom>
                     <Info>
                         <Product>
