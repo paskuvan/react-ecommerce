@@ -53,7 +53,7 @@ const Newsletter = () => {
             <Title>Recibe Ofertas y Contenido Natural</Title>
             <Desc>Descubra las novedades de productos, promociones, descuentos y ofertas.</Desc>
             <InputContainer>
-                <Input placeholder="Pone tu correo electrónico" />
+                <Input placeholder="Tu email" />
                 <Button>
                     <Send/>
                 </Button>
